@@ -1,0 +1,68 @@
+14:05:40,051 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+14:05:40,063 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+14:05:40,063 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+14:05:40,071 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6441c486
+14:05:40,105 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+14:05:40,108 DEBUG PlatformDependent0:1000 - Java version: 17
+14:05:40,110 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+14:05:40,112 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+14:05:40,115 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+14:05:40,117 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+14:05:40,118 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+14:05:40,120 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+14:05:40,123 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @29ca901e
+14:05:40,125 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+14:05:40,126 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+14:05:40,152 DEBUG PlatformDependent:1270 - maxDirectMemory: 1317011456 bytes (maybe)
+14:05:40,156 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\kanna\AppData\Local\Temp (java.io.tmpdir)
+14:05:40,157 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+14:05:40,161 DEBUG PlatformDependent:1119 - Platform: Windows
+14:05:40,164 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+14:05:40,164 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+14:05:40,169 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+14:05:40,169 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+14:05:40,206 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+14:05:40,252 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+14:05:40,253 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+14:05:40,398 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+14:05:40,398 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+14:05:40,468 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 4
+14:05:40,486 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+14:05:40,487 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+14:05:40,571 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 4
+14:05:40,572 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 4
+14:05:40,572 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+14:05:40,572 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+14:05:40,572 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+14:05:40,573 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+14:05:40,573 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+14:05:40,573 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+14:05:40,573 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+14:05:40,573 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+14:05:40,574 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+14:05:40,574 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+14:05:40,595 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+14:05:40,596 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+14:05:40,596 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+14:05:41,674 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 4656 (auto-detected)
+14:05:41,678 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+14:05:41,678 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+14:05:41,696 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+14:05:41,698 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+14:05:41,749 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 00:26:c6:ff:fe:b0:d5:20 (auto-detected)
+14:05:41,942 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+14:05:41,942 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+14:05:41,942 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7523773e
+14:05:41,989 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+14:05:41,990 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+14:05:41,990 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+14:05:41,990 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+14:05:44,099 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+14:05:44,324 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x41aaa1ec585ba0f4
+14:05:44,475  INFO devpinoyLogger:79 - launching chrome broswer
+14:06:00,141  INFO devpinoyLogger:96 - Open URL from config file
+14:06:00,417 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+14:06:00,421 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+14:06:00,434 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:06:00,436 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:06:00,437 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kanna/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
